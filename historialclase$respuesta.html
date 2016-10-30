@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Logo Nav - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/logo-nav.css" rel="stylesheet">
+	<link href="css/blocks.css" rel="stylesheet">
+	<link href="css/question-modal.css" rel="stylesheet">
+    <link href="css/piechart.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/breadcrumbs.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="http://placehold.it/150x50&text=Logo" alt="">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="estudianteindex.html">Unirse a Clase</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">Historial de Clases</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>Nombre-Estudiante</a>
+                    </li>
+					<li><a href="#">Salir</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+	
+   <div class="container">
+	<div class="row">
+		<h2 class="text-center">Portal del Estudiante</h2>
+        <div class="btn-group btn-breadcrumb">
+            <a href="estudianteindex.html" class="btn btn-primary"><i class="glyphicon glyphicon-home"></i></a>
+            <a href="historialclase.html" class="btn btn-primary">Historial de Clases</a>
+            <a href="historialclase$clase.html" class="btn btn-primary">INC301</a>
+            <a href="historialclase$pregunta.html" class="btn btn-primary">16 de Agosto</a>
+            <a href="#" class="btn btn-primary">Inmortalidad del Cangrejo</a>
+        </div>
+                <hr>
+    </div>
+    <div class="row col-md-3 custyle"></div>
+    <div class="col-md-6 col-xs-12 custyle">
+        <h4>¿Porqué se cuestiona la inmortalidad del cangrejo?</h4>
+        Tu respuesta fue: <b>Porque viven por mucho tiempo</b>
+        </br>
+        Tu respuesta es <b>INCORRECTA</b>
+        </br>
+        </br>
+        La respuesta correcta es: <i>"En realidad la inmortalidad del cangrejo no se cuestiona, sino que es un dicho popular"</i>
+        <div class="mksnipp">
+            <div id="piechart"></div>
+        </div>
+        <i>La alternativa correcta está marcada de color verde.</i><br/><br/>
+        <b>A)</b> Porque viven por mucho tiempo<br>
+        <b>B)</b> Porque hay estudios cuestionables que demuestran su inmortalidad<br>
+        <b>C)</b> En realidad la inmortalidad del cangrejo no se cuestiona, sino que es un dicho popular
+    </div>           
+        </div>
+	</div>
+
+	 <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/question-modal.js"></script>
+
+	</body>
+
+  <script src="js/piechart.js"></script>
+    <script type="text/javascript" src="http://www.gstatic.com/charts/loader.js"></script>
+</html>
